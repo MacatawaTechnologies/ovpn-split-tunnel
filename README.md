@@ -77,7 +77,7 @@ proto tcp
 remote-cert-eku "TLS Web Server Authentication"
 remote [connection address]
 remote [alternate connection address] [connection port]
-# redirect-gateway def1
+;redirect-gateway def1
 compat-mode 2.4.0
 pull-filter ignore redirect-gateway
 pull-filter ignore block-outside-dns
